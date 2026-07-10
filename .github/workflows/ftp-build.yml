@@ -1,0 +1,32 @@
+name: FTP Upload & Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install zensical
+
+      - name: Build Swedish docs
+        run: zensical build --clean
+
+      - name: Build English docs
+        run: zensical build --config-file zensical-en.toml --clean
+
+      - name: Upload via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local_path: ./site/*
+          remote_path: /
+          sftp_only: true
