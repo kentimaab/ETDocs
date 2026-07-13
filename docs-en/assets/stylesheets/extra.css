@@ -1309,6 +1309,65 @@ img {
     color: rgba(255, 255, 255, 0.7);
 }
 
+/* ── Simplified architecture cards for mobile (hidden on desktop) ── */
+.arch-mobile {
+    display: none;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.arch-mobile__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-decoration: none !important;
+    transition: border-color 0.15s;
+}
+
+.arch-mobile__card:hover {
+    border-color: #aaa;
+}
+
+.arch-mobile__label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #f9991b;
+}
+
+.arch-mobile__desc {
+    font-size: 0.85rem;
+    color: #444;
+    line-height: 1.4;
+}
+
+.arch-mobile__link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #111;
+    margin-top: 0.2rem;
+}
+
+[data-md-color-scheme="kentima-dark"] .arch-mobile__card {
+    border-color: #2d2d2d;
+}
+
+[data-md-color-scheme="kentima-dark"] .arch-mobile__card:hover {
+    border-color: #555;
+}
+
+[data-md-color-scheme="kentima-dark"] .arch-mobile__desc {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+[data-md-color-scheme="kentima-dark"] .arch-mobile__link {
+    color: rgba(255, 255, 255, 0.87);
+}
+
 /* ── Kentima section ── */
 .hp-kentima {
     margin-top: 3rem;
@@ -1392,12 +1451,10 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
     .arch-wrap {
-        overflow-x: auto;
-        overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
+        display: none;
     }
-    .arch-tier {
-        min-width: 640px;
+    .arch-mobile {
+        display: flex;
     }
 }
 
