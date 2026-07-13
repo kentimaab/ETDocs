@@ -175,27 +175,17 @@ hide:
     <div class="arch-mobile">
       <a href="losningar/nummerplatsavlasning/oversikt/" class="arch-mobile__card">
         <span class="arch-mobile__label">Lösningar</span>
-        <span class="arch-mobile__desc">Färdiga lösningar som numerplåtsavläsning och systemintegration.</span>
-        <span class="arch-mobile__link">Läs mer →</span>
-      </a>
-      <a href="losningar/index/" class="arch-mobile__card">
-        <span class="arch-mobile__label">Skript</span>
-        <span class="arch-mobile__desc">Färdiga JavaScript-skript för Ethiris skriptmiljö.</span>
+        <span class="arch-mobile__desc">Färdiga lösningar och skript – numerplåtsavläsning, systemintegration och skriptbiblioteket.</span>
         <span class="arch-mobile__link">Läs mer →</span>
       </a>
       <a href="ethiris/index/#komponenter-i-ett-ethiris-system" class="arch-mobile__card">
-        <span class="arch-mobile__label">Klienter</span>
+        <span class="arch-mobile__label">Klientapplikationer</span>
         <span class="arch-mobile__desc">Ethiris Client, Mobile och webbklient för åtkomst till systemet.</span>
         <span class="arch-mobile__link">Läs mer →</span>
       </a>
       <a href="ethiris/index/" class="arch-mobile__card">
-        <span class="arch-mobile__label">Kärna</span>
-        <span class="arch-mobile__desc">Kameror, inspelning, larm, användare och övrig kärnfunktionalitet.</span>
-        <span class="arch-mobile__link">Läs mer →</span>
-      </a>
-      <a href="ethiris/index/#kamerastod-och-onvif" class="arch-mobile__card">
-        <span class="arch-mobile__label">Kommunikation</span>
-        <span class="arch-mobile__desc">Kamerastöd via ONVIF och ledande tillverkares protokoll.</span>
+        <span class="arch-mobile__label">Ethiris VMS</span>
+        <span class="arch-mobile__desc">Kärnfunktionalitet som kameror, inspelning och larm, samt kamerastöd via ONVIF och ledande tillverkares protokoll.</span>
         <span class="arch-mobile__link">Läs mer →</span>
       </a>
     </div>
