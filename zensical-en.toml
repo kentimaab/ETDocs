@@ -3,7 +3,7 @@
 site_name = "Ethiris Docs"
 site_description = "Documentation for Ethiris VMS and its solutions"
 site_author = "Markus Kvist"
-#site_url = "https://www.ethiris.com/en/"
+site_url = "https://www.ethiris.com/docs/en/"
 docs_dir = "docs-en"
 site_dir = "site/en"
 
@@ -130,8 +130,8 @@ toggle.name = "Switch to light mode"
 
 [project.extra]
 alternate = [
-    { name = "English", link = "/en/", lang = "en" },
-    { name = "Svenska", link = "/", lang = "sv" },
+    { name = "English", link = "/docs/en/", lang = "en" },
+    { name = "Svenska", link = "/docs/", lang = "sv" },
 ]
 
 [project.markdown_extensions.abbr]

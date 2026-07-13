@@ -30,7 +30,7 @@ hide:
       <span class="hp-label-text">Produkter &amp; Lösningar</span>
       <span class="hp-label-line"></span>
     </div>
-    <div class="hp-product-grid" style="grid-template-columns: repeat(3, 1fr);">
+    <div class="hp-product-grid">
 
       <a href="ethiris/index/" class="hp-product hp-product--wwt">
         <div class="hp-product__top">
@@ -175,7 +175,7 @@ hide:
 
   <div class="hp-kentima">
     <div class="hp-kentima__inner">
-      <img src="assets/logo.svg" class="hp-kentima__logo" alt="Kentima">
+      <img src="assets/Kentima.svg" class="hp-kentima__logo" alt="Kentima">
       <div class="hp-kentima__text">
         <div class="hp-kentima__name">Made by Kentima</div>
         <div class="hp-kentima__desc">Kentima utvecklar mjukvara och lösningar för videoövervakning och industriell automation. Ethiris är Kentimas plattform för professionell videohantering.</div>
