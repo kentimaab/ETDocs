@@ -170,6 +170,34 @@ hide:
         </div>
       </div>
 
+      <div class="arch-mobile">
+        <a href="losningar/nummerplatsavlasning/oversikt/" class="arch-mobile__card">
+          <span class="arch-mobile__label">Solutions</span>
+          <span class="arch-mobile__desc">Ready-made solutions like license plate recognition and system integration.</span>
+          <span class="arch-mobile__link">Read more →</span>
+        </a>
+        <a href="losningar/index/" class="arch-mobile__card">
+          <span class="arch-mobile__label">Scripts</span>
+          <span class="arch-mobile__desc">Ready-made JavaScript scripts for the Ethiris scripting environment.</span>
+          <span class="arch-mobile__link">Read more →</span>
+        </a>
+        <a href="ethiris/index/#components-in-an-ethiris-system" class="arch-mobile__card">
+          <span class="arch-mobile__label">Clients</span>
+          <span class="arch-mobile__desc">Ethiris Client, Mobile, and web client for accessing the system.</span>
+          <span class="arch-mobile__link">Read more →</span>
+        </a>
+        <a href="ethiris/index/" class="arch-mobile__card">
+          <span class="arch-mobile__label">Core</span>
+          <span class="arch-mobile__desc">Cameras, recording, alarms, users, and other core functionality.</span>
+          <span class="arch-mobile__link">Read more →</span>
+        </a>
+        <a href="ethiris/index/#camera-support-and-onvif" class="arch-mobile__card">
+          <span class="arch-mobile__label">Communication</span>
+          <span class="arch-mobile__desc">Camera support via ONVIF and leading manufacturers' protocols.</span>
+          <span class="arch-mobile__link">Read more →</span>
+        </a>
+      </div>
+
     </div>
   </div>
 
