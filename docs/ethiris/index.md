@@ -2,11 +2,11 @@
 
 Ett videoövervakningssystem behöver vara öppet nog att fungera med valfria kameror, skalbart nog att växa i takt med anläggningen, och tillräckligt integrerbart för att kopplas ihop med larm-, passage- och processystem. Det är utgångspunkten för Ethiris.
 
-Ethiris är Kentimas produktfamilj för professionell videoövervakning. Den består av mjukvaran **Ethiris Video Management Software (VMS)** samt tillhörande hårdvara – Network Video Recorders (NVR), Network Video Clients (NVC), Network Video Panels (NVP) och kompletta racklösningar (NVRN Rack Solutions).
+Ethiris (**Ethiris Video Management Software**, VMS) är Kentimas mjukvara för professionell videoövervakning. Kentima tillverkar även tillhörande hårdvara – Network Video Recorders (NVR), Network Video Clients (NVC), Network Video Panels (NVP) och kompletta racklösningar (NVRN Rack Solutions) – med Ethiris förinstallerat.
 
 Produkterna används i alla typer av anläggningar, från mindre installationer till mycket stora och komplexa system med tusentals kameror – till exempel flygplatser, hamnar, köpcentrum, processindustri, offentliga byggnader, larmcentraler och trafiksystem.
 
-Den här sidan går igenom systemet i fyra delar: **produkt och licensiering** (komponenter, licensmodell), **hårdvara** (NVR/NVC/NVP, racklösningar, kamerastöd), **klientfunktioner** (livevisning, videovägg, uppspelning, larm, ljud) och **administration och integration** (skript, SDK, serverdrift, ONVIF).
+Den här sidan går igenom Ethiris i tre delar: **produkt och licensiering** (komponenter, licensmodell), **klientfunktioner** (livevisning, videovägg, uppspelning, larm, ljud) och **administration och integration** (skript, SDK, serverdrift, ONVIF). Sidan tar också upp kamerastöd samt den hårdvara – NVR/NVC/NVP och racklösningar – som Kentima erbjuder och som Ethiris kan köras på.
 
 ## Ethiris VMS – öppen, flexibel och kraftfull
 
@@ -92,39 +92,6 @@ De vanligaste funktionerna som kräver en högre licensnivå eller tillköpt opt
 | Automatisk export av video (kräver även tillköpt option) | Premium eller Universal nivå 6 (option) |
 | Multipla instanser av Ethiris Server | Universal nivå 6 |
 
-## Hårdvara – NVR, NVC och NVP
-
-Samtliga Ethiris NVR-, NVC- och NVP-modeller är tillförlitliga, robusta datorer med Ethiris VMS förinstallerad och licensierad, utvecklade och testade av Kentima. Samtliga modeller har en 120 GB SSD där operativsystem och Ethiris VMS ligger förinstallerade.
-
-| Produkt | Beskrivning | Max antal kameror | Max intern videolagring |
-|---|---|---|---|
-| **Ethiris NVR-1E** | För mindre, enklare anläggningar. | 32 | 22 TB |
-| **Ethiris NVR-4** | Hög prestanda, Intel i3/i5/i7. För större och mer krävande anläggningar. | 200 | 44 TB |
-| **Ethiris NVRN-2 / NVRN-3 / NVRN-4** | Kör Ethiris Server med extern videolagring mot en NAS – ingen plats för interna videolagringsdiskar. NVRN-4 har samma prestanda som NVR-4 och utgör basen i Ethiris NVRN Rack Solutions. | 200 (NVRN-4) | – (extern NAS) |
-| **Ethiris NVRC-4** | Kör Ethiris Server och Ethiris Client samtidigt på en och samma dator. | 100 | 22 TB |
-| **Ethiris NVC-4S** | Renodlad klientdator med Ethiris Client förinstallerad, ingen videodisk. Upp till 3 skärmar. | – | – |
-| **Ethiris NVC-4L** | Renodlad klientdator med Ethiris Client förinstallerad, ingen videodisk. Upp till 4 skärmar. | – | – |
-
-**Ethiris NVP – touchpaneler:**
-
-- **NVP-300-serien** – NVP-1E-311 (10,1" touchskärm) och NVP-E316 (15,6" touchskärm), för utanpåliggande montage på vägg eller arm, levereras med VESA-fäste.
-- **NVP-500-serien** – NVP-1E-516 (15,6" touchmonitor), infälld montering i vägg eller skåp med väggtjocklek upp till 10 mm.
-- **NVP-600-serien** – NVP-4-616 (15,6") och NVP-4-621 (21,5") touchmonitorer med Intel i3/i5/i7, lämpade för visning av upp till 100 samtidiga kameror i Full HD med 25 fps. Infälld montering i vägg eller skåp med väggtjocklek upp till 10 mm.
-
-Flera NVR-enheter kan samverka för att hantera ett stort antal kameror i samma anläggning, och samtliga modeller kan ingå i ett Ethiris Cluster för redundans.
-
-## NVRN Rack Solutions
-
-Racklösningarna finns i tre grundserier – Small, Medium och Large – för att täcka olika anläggningsstorlekar. Grundtanken är att racklösningen ska tillhandahålla allt som behövs i en videoövervakningsanläggning förutom själva kamerorna; diskarna ingår inte i grundpriset utan beställs separat efter behov. Diskkapaciteten i tabellen nedan visar vad respektive serie maximalt kan bestyckas med, inte en standardkonfiguration.
-
-Basen är Ethiris NVRN. Samtliga ingående NVRN har licensnivå **Premium** inklusive 5 års fria uppdateringar och konfigureras i ett **Ethiris Cluster** – om en eller flera NVR faller ifrån tar övriga automatiskt över hanteringen av dess kameror. Kentima monterar NVR:erna i racket tillsammans med switch, NAS, strömförsörjning och UPS, och konfigurerar IP-adresser och nätverksinställningar enligt kundens önskemål. Montering, konfiguration och testning av hela systemet ingår innan leverans.
-
-| | Serie S (Small) | Serie M (Medium) | Serie L (Large) |
-|---|---|---|---|
-| Antal kameror | 32–64 | 64–300 | 128–2 000 |
-| Diskkapacitet RAID 5 | 140 TiB (8 diskar) | 220 TiB (12 diskar) | 940 TiB (48 diskar) |
-| Höjd på rackskåp | 12 U / 635 mm | 18 U / 902 mm | 32 U / 1 610 mm |
-
 ## Kamerastöd och ONVIF
 
 Ethiris har stöd för både det generella ONVIF-protokollet och individuella protokoll från ledande kameratillverkare. Samtliga ONVIF-kameror på nätverket upptäcks automatiskt av Ethiris inbyggda sökfunktion. **Ethiris VMS är certifierat för ONVIF Profile S och ONVIF Profile M.**
@@ -136,30 +103,6 @@ Ethiris har stöd för både det generella ONVIF-protokollet och individuella pr
 - Passagesystem kan integreras via **ONVIF Profile C** (se [Integration med andra system](#integration-med-andra-system)).
 
 Exempel på kameratillverkare med stöd i Ethiris: ACTi, Arecont Vision, Avigilon, Axis, Basler, Bosch, Brickcom, Canon, Dahua, D-Link, FLIR, GKB, HIK Vision, IQinVision, Panasonic, Pixord, Samsung, Sanyo, Sony och Vivotek. En aktuell och fullständig lista finns på [kentima.com](https://www.kentima.com).
-
-## Ethiris Monitor – övervakning av hårdvara
-
-Ethiris Monitor är en separat process som installeras tillsammans med Ethiris Server och Ethiris Client. Syftet är att övervaka den Ethiris NVR-, NVC- eller NVP-enhet som Ethiris VMS körs på, för att i god tid upptäcka problem och öka driftsäkerheten. Processen identifierar automatiskt vilken hårdvara enheten består av och skapar motsvarande variabler och larm i datalagret.
-
-- **Moderkort** – två temperaturer och upp till tre fläktar övervakas, med automatiska larm vid för hög temperatur respektive för lågt fläktvarvtal.
-- **Processorer** – grundläggande information hämtas oavsett hårdvara, men fläktar/temperaturer övervakas bara i Kentimas NVX-datorer. Temperatur läses per kärna, men ett gemensamt larm (`CoreTempTooHigh`) skapas per processor.
-- **Grafikkort** – två temperaturlarm och ett fläktlarm, samt variabler för dataöverföringshastigheter.
-- **Diskar** – grundinformation (namn, serienummer), larm för hög temperatur samt diskreta värden för drifttimmar och antal start/stopp.
-
-Diskreta sensorvärden nås ett steg ned i trädet (noden **Sensors**) och kan användas för egna larmgränser eller historikloggning, t.ex. ett egendefinierat larm som aktiveras om en temperatur överstiger 35 °C.
-
-!!! info "Licenskrav och kompatibilitet"
-    Kräver minst licensnivå Extended eller Universal nivå 3. NVX-serierna 1E, 2, 3 och 4 stöds (Serie 4 kräver Ethiris VMS 17.0 eller senare).
-
-### Ethiris Monitoring Dashboard (EMD)
-
-EMD är en WideQuick-applikation som övervakar utrustningen i en Ethiris NVRN Rack Solution (eller annat Ethiris-system) – typiskt en hel racklösning med flera Ethiris NVRN, switch, NAS och UPS. EMD kan köras som webbapplikation och är därmed tillgänglig på distans via webbläsare eller mobil enhet, eller lokalt i en operatörsklient monterad direkt i racket för snabb översikt på plats. Via statistikvariabler från Ethiris Server visas bland annat nätverksbandbredd, videolagringsprestanda och UPS-data, samt status för de fyra LED-indikatorerna på varje NVR.
-
-Se den dedikerade lösningssidan för [Ethiris Monitoring Dashboard](../losningar/ethiris-monitoring-dashboard/oversikt.md) för installations- och konfigurationsguider.
-
-### SNMP – diskövervakning på NAS
-
-I rackbaserade lösningar med RAID-lagring (RAID-5 tål en trasig disk, RAID-6 två) kan diskproblem döljas av RAID-systemet så länge det fortfarande fungerar. Skriptobjektet **SNMPReader** läser status via SNMPv1 direkt från NAS-enheten (testat mot Synology RS1219+) eller annan nätverksutrustning, för att kunna larma vid avvikande diskstatus trots att RAID-systemet i sig fungerar.
 
 ## Användningsområden
 
@@ -327,25 +270,6 @@ Från version 12.0 finns en särskild kvitteringstyp, "Larmoperatör", som gör 
 
 Händelselistan visar samtliga händelser i systemet (systemhändelser, egendefinierade händelser och larmstatusändringar) och fungerar som historiklogg. Händelser kan associeras med kameror för direkt åtkomst till relevant video via dubbelklick. **Spårning (Audit trail)** kan aktiveras per funktion (t.ex. "Visa livevideo från kamera") och loggar vad, vem, när och från vilken dator – med möjlighet till automatisk radering efter en inställbar tid.
 
-### Automatisk tidsjustering
-
-Ethiris VMS synkar automatiskt tiden i alla anslutna ONVIF-kameror, och samtliga Ethiris Client synkar sin klocka mot en Ethiris Server. Ethiris Server ställer även in kamerornas NTP-server att peka mot sig själv, och har en egen inbyggd NTP-server alltid aktiverad. Det rekommenderas att synka Ethiris Servers klocka mot en extern NTP-server. Ett larm genereras automatiskt om tidsskillnaden mellan två Ethiris-enheter (klient eller server) överstiger 30 sekunder.
-
-## Behörighet och säkerhet
-
-Ethiris har ett eget behörighetssystem med användare och grupper, och kan även integreras med Windows behörighetssystem (Active Directory, en domän, eller den lokala servern). Cirka 20 Ethiris-funktioner kan kopplas till användargrupper, och all användning kan spåras och loggas i händelselistan med tidpunkt och användare. Behörighet kan sättas på servernivå eller specifikt per kamera/klienttyp (Ethiris Admin, Ethiris Client, Ethiris Mobile, WideQuick Ethiris View) – till exempel kräva inloggning för mobilanslutning men inte för lokal nätverksanslutning.
-
-**Single Sign On (SSO)** loggar automatiskt in med den Windows-användare som redan är inloggad, förutsatt att både server- och klientdatorn är medlemmar i samma domän.
-
-**2FA (tvåfaktorsautentisering)** kräver, utöver användarnamn och lösenord, en engångskod från en autentiseringsapp (t.ex. Microsoft Authenticator), aktiverad via en QR-kod vid första inloggningen.
-
-**Lösenordssäkerhet** – administratören kan sätta minsta lösenordsstyrka (sex nivåer, Mycket svag–Extremt stark) eller skräddarsy komplexitetskrav (minsta längd och teckentyper), kräva lösenordsbyte vid första inloggning, sätta en max lösenordsålder (standard 180 dagar om aktiverad), samt aktivera kontolåsning (5 felaktiga försök låser kontot i 15 minuter, med 15 minuter till per ytterligare misslyckat försök).
-
-**Kryptering** – Ethiris stödjer full kryptering i kommunikationen mellan systemets komponenter (t.ex. mellan Ethiris Server, Ethiris Client och Ethiris Mobile), samt krypterad kommunikation mot kameror som stödjer https. Kryptering av video- och datafiler på disk kräver licensnivå Premium.
-
-!!! info "Licenskrav"
-    Single Sign On och 2FA kräver licensnivå Premium eller Universal nivå 6.
-
 ## Ljud
 
 Ljudfunktionen ger operatören möjlighet att tala ut till en eller flera högtalarenheter i anläggningen, samt att lyssna live och spela in ljud från kameror med mikrofon.
@@ -449,6 +373,10 @@ Genom att kombinera Ethiris med **WideQuick PSIM** (Kentimas SCADA/PSIM-system) 
 - **Historikloggning** – variabelvärden (från externa givare, andra system eller interna variabler) kan spelas in tillsammans med video och exporteras tillsammans med den, t.ex. till en AVI-fil.
 - **OPC-browser** – presenterar tillgängliga signaler i ett annat OPC-kompatibelt system för direkt inval i Ethiris Servers datalager, med automatisk ömsesidig uppdatering.
 
+### Automatisk tidsjustering
+
+Ethiris VMS synkar automatiskt tiden i alla anslutna ONVIF-kameror, och samtliga Ethiris Client synkar sin klocka mot en Ethiris Server. Ethiris Server ställer även in kamerornas NTP-server att peka mot sig själv, och har en egen inbyggd NTP-server alltid aktiverad. Det rekommenderas att synka Ethiris Servers klocka mot en extern NTP-server. Ett larm genereras automatiskt om tidsskillnaden mellan två Ethiris-enheter (klient eller server) överstiger 30 sekunder.
+
 ### Multipla instanser av Ethiris Server
 
 Flera instanser av Ethiris Server kan köras på samma dator, isolerade från varandra – särskilt användbart vid hosting där flera kunder delar hårdvara. Varje instans kör i en egen arbetskatalog och har egen lagringsplats för video, och visas separat i listan över tillgängliga Ethiris-servrar. En kryssruta kan begränsa vad som kan ändras för en instans vid distansanslutning, för att skydda övriga kunder på samma hårdvara (t.ex. hindra ändring av portar eller lagringskonfiguration).
@@ -482,6 +410,78 @@ Interaktionsobjekt kan läggas ovanpå livebilder, översiktsbilder eller kartor
 | **Bild** | Visar statiska bilder, kan kopplas till en boolesk variabel för att styra synlighet. |
 | **Dörr** | Representerar en dörrenhet kopplad via passagesystem-plugin; visar status (stängd, låst, öppen, forcerad) och kan låsas upp manuellt. |
 | **Telefon** | Upprättar tvåvägskommunikation mellan operatör och besökare, se [Porttelefonsfunktioner](#porttelefonsfunktioner). |
+
+## Behörighet och säkerhet
+
+Ethiris har ett eget behörighetssystem med användare och grupper, och kan även integreras med Windows behörighetssystem (Active Directory, en domän, eller den lokala servern). Cirka 20 Ethiris-funktioner kan kopplas till användargrupper, och all användning kan spåras och loggas i händelselistan med tidpunkt och användare. Behörighet kan sättas på servernivå eller specifikt per kamera/klienttyp (Ethiris Admin, Ethiris Client, Ethiris Mobile, WideQuick Ethiris View) – till exempel kräva inloggning för mobilanslutning men inte för lokal nätverksanslutning.
+
+**Single Sign On (SSO)** loggar automatiskt in med den Windows-användare som redan är inloggad, förutsatt att både server- och klientdatorn är medlemmar i samma domän.
+
+**2FA (tvåfaktorsautentisering)** kräver, utöver användarnamn och lösenord, en engångskod från en autentiseringsapp (t.ex. Microsoft Authenticator), aktiverad via en QR-kod vid första inloggningen.
+
+**Lösenordssäkerhet** – administratören kan sätta minsta lösenordsstyrka (sex nivåer, Mycket svag–Extremt stark) eller skräddarsy komplexitetskrav (minsta längd och teckentyper), kräva lösenordsbyte vid första inloggning, sätta en max lösenordsålder (standard 180 dagar om aktiverad), samt aktivera kontolåsning (5 felaktiga försök låser kontot i 15 minuter, med 15 minuter till per ytterligare misslyckat försök).
+
+**Kryptering** – Ethiris stödjer full kryptering i kommunikationen mellan systemets komponenter (t.ex. mellan Ethiris Server, Ethiris Client och Ethiris Mobile), samt krypterad kommunikation mot kameror som stödjer https. Kryptering av video- och datafiler på disk kräver licensnivå Premium.
+
+!!! info "Licenskrav"
+    Single Sign On och 2FA kräver licensnivå Premium eller Universal nivå 6.
+
+## NVR, NVC och NVP
+
+Utöver mjukvaran Ethiris tillverkar Kentima även dedikerad hårdvara som Ethiris kan köras på. Samtliga Ethiris NVR-, NVC- och NVP-modeller är tillförlitliga, robusta datorer med Ethiris VMS förinstallerad och licensierad, utvecklade och testade av Kentima. Samtliga modeller har en 120 GB SSD där operativsystem och Ethiris VMS ligger förinstallerade.
+
+| Produkt | Beskrivning | Max antal kameror | Max intern videolagring |
+|---|---|---|---|
+| **Ethiris NVR-1E** | För mindre, enklare anläggningar. | 32 | 22 TB |
+| **Ethiris NVR-4** | Hög prestanda, Intel i3/i5/i7. För större och mer krävande anläggningar. | 200 | 44 TB |
+| **Ethiris NVRN-2 / NVRN-3 / NVRN-4** | Kör Ethiris Server med extern videolagring mot en NAS – ingen plats för interna videolagringsdiskar. NVRN-4 har samma prestanda som NVR-4 och utgör basen i Ethiris NVRN Rack Solutions. | 200 (NVRN-4) | – (extern NAS) |
+| **Ethiris NVRC-4** | Kör Ethiris Server och Ethiris Client samtidigt på en och samma dator. | 100 | 22 TB |
+| **Ethiris NVC-4S** | Renodlad klientdator med Ethiris Client förinstallerad, ingen videodisk. Upp till 3 skärmar. | – | – |
+| **Ethiris NVC-4L** | Renodlad klientdator med Ethiris Client förinstallerad, ingen videodisk. Upp till 4 skärmar. | – | – |
+
+**Ethiris NVP – touchpaneler:**
+
+- **NVP-300-serien** – NVP-1E-311 (10,1" touchskärm) och NVP-E316 (15,6" touchskärm), för utanpåliggande montage på vägg eller arm, levereras med VESA-fäste.
+- **NVP-500-serien** – NVP-1E-516 (15,6" touchmonitor), infälld montering i vägg eller skåp med väggtjocklek upp till 10 mm.
+- **NVP-600-serien** – NVP-4-616 (15,6") och NVP-4-621 (21,5") touchmonitorer med Intel i3/i5/i7, lämpade för visning av upp till 100 samtidiga kameror i Full HD med 25 fps. Infälld montering i vägg eller skåp med väggtjocklek upp till 10 mm.
+
+Flera NVR-enheter kan samverka för att hantera ett stort antal kameror i samma anläggning, och samtliga modeller kan ingå i ett Ethiris Cluster för redundans.
+
+## NVRN Rack Solutions
+
+NVRN Rack Solutions är Kentimas färdigbyggda, rackbaserade hårdvarulösningar med Ethiris förinstallerat och färdigkonfigurerat. Racklösningarna finns i tre grundserier – Small, Medium och Large – för att täcka olika anläggningsstorlekar. Grundtanken är att racklösningen ska tillhandahålla allt som behövs i en videoövervakningsanläggning förutom själva kamerorna; diskarna ingår inte i grundpriset utan beställs separat efter behov. Diskkapaciteten i tabellen nedan visar vad respektive serie maximalt kan bestyckas med, inte en standardkonfiguration.
+
+Basen är Ethiris NVRN. Samtliga ingående NVRN har licensnivå **Premium** inklusive 5 års fria uppdateringar och konfigureras i ett **Ethiris Cluster** – om en eller flera NVR faller ifrån tar övriga automatiskt över hanteringen av dess kameror. Kentima monterar NVR:erna i racket tillsammans med switch, NAS, strömförsörjning och UPS, och konfigurerar IP-adresser och nätverksinställningar enligt kundens önskemål. Montering, konfiguration och testning av hela systemet ingår innan leverans.
+
+| | Serie S (Small) | Serie M (Medium) | Serie L (Large) |
+|---|---|---|---|
+| Antal kameror | 32–64 | 64–300 | 128–2 000 |
+| Diskkapacitet RAID 5 | 140 TiB (8 diskar) | 220 TiB (12 diskar) | 940 TiB (48 diskar) |
+| Höjd på rackskåp | 12 U / 635 mm | 18 U / 902 mm | 32 U / 1 610 mm |
+
+## Ethiris Monitor – övervakning av hårdvara
+
+Ethiris Monitor är en separat process som installeras tillsammans med Ethiris Server och Ethiris Client. Syftet är att övervaka den Ethiris NVR-, NVC- eller NVP-enhet som Ethiris VMS körs på, för att i god tid upptäcka problem och öka driftsäkerheten. Processen identifierar automatiskt vilken hårdvara enheten består av och skapar motsvarande variabler och larm i datalagret.
+
+- **Moderkort** – två temperaturer och upp till tre fläktar övervakas, med automatiska larm vid för hög temperatur respektive för lågt fläktvarvtal.
+- **Processorer** – grundläggande information hämtas oavsett hårdvara, men fläktar/temperaturer övervakas bara i Kentimas NVX-datorer. Temperatur läses per kärna, men ett gemensamt larm (`CoreTempTooHigh`) skapas per processor.
+- **Grafikkort** – två temperaturlarm och ett fläktlarm, samt variabler för dataöverföringshastigheter.
+- **Diskar** – grundinformation (namn, serienummer), larm för hög temperatur samt diskreta värden för drifttimmar och antal start/stopp.
+
+Diskreta sensorvärden nås ett steg ned i trädet (noden **Sensors**) och kan användas för egna larmgränser eller historikloggning, t.ex. ett egendefinierat larm som aktiveras om en temperatur överstiger 35 °C.
+
+!!! info "Licenskrav och kompatibilitet"
+    Kräver minst licensnivå Extended eller Universal nivå 3. NVX-serierna 1E, 2, 3 och 4 stöds (Serie 4 kräver Ethiris VMS 17.0 eller senare).
+
+### Ethiris Monitoring Dashboard (EMD)
+
+EMD är en WideQuick-applikation som övervakar utrustningen i en Ethiris NVRN Rack Solution (eller annat Ethiris-system) – typiskt en hel racklösning med flera Ethiris NVRN, switch, NAS och UPS. EMD kan köras som webbapplikation och är därmed tillgänglig på distans via webbläsare eller mobil enhet, eller lokalt i en operatörsklient monterad direkt i racket för snabb översikt på plats. Via statistikvariabler från Ethiris Server visas bland annat nätverksbandbredd, videolagringsprestanda och UPS-data, samt status för de fyra LED-indikatorerna på varje NVR.
+
+Se den dedikerade lösningssidan för [Ethiris Monitoring Dashboard](../losningar/ethiris-monitoring-dashboard/oversikt.md) för installations- och konfigurationsguider.
+
+### SNMP – diskövervakning på NAS
+
+I rackbaserade lösningar med RAID-lagring (RAID-5 tål en trasig disk, RAID-6 två) kan diskproblem döljas av RAID-systemet så länge det fortfarande fungerar. Skriptobjektet **SNMPReader** läser status via SNMPv1 direkt från NAS-enheten (testat mot Synology RS1219+) eller annan nätverksutrustning, för att kunna larma vid avvikande diskstatus trots att RAID-systemet i sig fungerar.
 
 ## Ethiris Access Service (EAS)
 

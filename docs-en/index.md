@@ -1,5 +1,6 @@
 ---
 template: home.html
+title: Home
 description: Ethiris VMS documentation – cameras, recording, solutions and extensions.
 hide:
   - navigation
@@ -16,7 +17,7 @@ hide:
       <span class="hp-status-sep">—</span>
       <span>v17.0</span>
     </div>
-    <h1 class="hp-hero__title">Video<br>Management<br><span class="hp-hero__accent">Documentation</span></h1>
+    <h1 class="hp-hero__title">Ethiris VMS<br><span class="hp-hero__accent">documentation</span></h1>
     <p class="hp-hero__sub">Everything you need to configure, deploy and use Ethiris VMS and its solutions.</p>
     <a href="losningar/nummerplatsavlasning/oversikt/" class="hp-hero__cta">Explore solutions <span class="hp-hero__cta-arrow">→</span></a>
   </div>
@@ -40,7 +41,7 @@ hide:
         </div>
         <div class="hp-product__name">Ethiris<br>VMS</div>
         <div class="hp-product__rule"></div>
-        <div class="hp-product__desc">The core of Ethiris. Manage cameras, recording, events, alarms and users from a single system.</div>
+        <div class="hp-product__desc">Manage cameras, recording, events, alarms and users – all in one piece of software.</div>
         <div class="hp-product__pills">
           <span>Cameras</span><span>Recording</span><span>Alarms</span><span>Users</span><span>Mobile</span>
         </div>
@@ -102,7 +103,6 @@ hide:
         <div class="arch-tier__rows">
           <div class="arch-row">
             <div class="arch-sublabel-col"><span>Solutions</span></div>
-            <div class="arch-indent arch-indent--lg"></div>
             <a href="losningar/nummerplatsavlasning/oversikt/" class="arch-concept arch-concept--bms">
               <small>Ethiris</small>
               <strong>License Plate Recognition</strong>
@@ -116,7 +116,6 @@ hide:
           </div>
           <div class="arch-row">
             <div class="arch-sublabel-col"><span>Scripts</span></div>
-            <div class="arch-indent arch-indent--lg"></div>
             <div class="arch-content arch-content--solutions">
               <div class="arch-mini-chips">
                 <span>scExtensions</span><span>scFile</span><span>scSaveImage</span><span>scMail</span><span>scCameras</span><span>scSunRiseSet</span><span>scSNMP</span><span>scExportVideo</span>
@@ -129,15 +128,15 @@ hide:
       <!-- Tier: Client Applications -->
       <div class="arch-tier">
         <div class="arch-tier__label arch-tier__label--framework">
-          <span>Client Applications</span>
+          <strong>Ethiris</strong>
+          <span>Clients</span>
         </div>
         <div class="arch-tier__rows">
           <div class="arch-row">
             <div class="arch-sublabel-col"><span>Clients</span></div>
-            <div class="arch-indent arch-indent--sm"></div>
             <div class="arch-content arch-content--solutions">
               <div class="arch-mini-chips">
-                <span>Ethiris Client</span><span>Ethiris Mobile</span><span>Web Client</span>
+                <span>Ethiris Client</span><span>Ethiris Mobile</span>
               </div>
             </div>
           </div>
@@ -163,7 +162,7 @@ hide:
             <div class="arch-sublabel-col arch-sublabel-col--light"><span>Communication</span></div>
             <div class="arch-content arch-content--comms">
               <div class="arch-mini-chips">
-                <span>ONVIF</span><span>RTSP</span><span>H.264</span><span>H.265</span><span>MJPEG</span><span>Axis</span><span>Hanwha</span><span>Hikvision</span><span>Bosch</span>
+                <span>ONVIF</span><span>RTSP</span><span>H.264</span><span>H.265</span><span>MJPEG</span><span>OPC</span><span>HTTP</span><span>TCP</span>
               </div>
             </div>
           </div>
@@ -180,7 +179,7 @@ hide:
       </a>
       <a href="ethiris/index/#components-in-an-ethiris-system" class="arch-mobile__card">
         <span class="arch-mobile__label">Client Applications</span>
-        <span class="arch-mobile__desc">Ethiris Client, Mobile, and web client for accessing the system.</span>
+        <span class="arch-mobile__desc">Ethiris Client and Mobile for accessing the system.</span>
         <span class="arch-mobile__link">Read more →</span>
       </a>
       <a href="ethiris/index/" class="arch-mobile__card">
@@ -197,7 +196,7 @@ hide:
       <img src="assets/Kentima.svg" class="hp-kentima__logo" alt="Kentima">
       <div class="hp-kentima__text">
         <div class="hp-kentima__name">Made by Kentima</div>
-        <div class="hp-kentima__desc">Kentima develops software and solutions for video surveillance and industrial automation. Ethiris is Kentima's platform for professional video management.</div>
+        <div class="hp-kentima__desc">Kentima develops software and solutions for video surveillance and industrial automation. Ethiris VMS is Kentima's software for professional video management.</div>
       </div>
       <a href="https://www.kentima.com" class="hp-kentima__cta" target="_blank">Visit Kentima.com →</a>
     </div>
