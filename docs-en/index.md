@@ -67,7 +67,7 @@ hide:
         </div>
       </a>
 
-      <a href="losningar/index/" class="hp-product hp-product--wwt">
+      <a href="skriptbibliotek/index/" class="hp-product hp-product--wwt">
         <div class="hp-product__top">
           <span class="hp-product__indicator"></span>
           <span class="hp-product__code">SCRIPT LIBRARY</span>
