@@ -44,6 +44,12 @@ nav = [
       { "Usage" = "losningar/ethiris-monitoring-dashboard/anvandning.md" },
       { "Advanced" = "losningar/ethiris-monitoring-dashboard/avancerat.md" },
     ]},
+    { "Send SMS with Teltonika" = [
+      { "Overview" = "losningar/teltonika-sms/oversikt.md" },
+      { "Installation" = "losningar/teltonika-sms/installation.md" },
+      { "Usage" = "losningar/teltonika-sms/anvandning.md" },
+      { "Advanced" = "losningar/teltonika-sms/avancerat.md" },
+    ]},
   ]},
   { "Script Library" = [
     { "Overview" = "skriptbibliotek/index.md" },
