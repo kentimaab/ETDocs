@@ -89,42 +89,34 @@ nav = [
     { "scExtensions" = [
       { "Översikt" = "skriptbibliotek/scextensions/oversikt.md" },
       { "Användning" = "skriptbibliotek/scextensions/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/scextensions/avancerat.md" },
     ]},
     { "scFile" = [
       { "Översikt" = "skriptbibliotek/scfile/oversikt.md" },
       { "Användning" = "skriptbibliotek/scfile/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/scfile/avancerat.md" },
     ]},
     { "scSaveImage" = [
       { "Översikt" = "skriptbibliotek/scsaveimage/oversikt.md" },
       { "Användning" = "skriptbibliotek/scsaveimage/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/scsaveimage/avancerat.md" },
     ]},
     { "scMail" = [
       { "Översikt" = "skriptbibliotek/scmail/oversikt.md" },
       { "Användning" = "skriptbibliotek/scmail/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/scmail/avancerat.md" },
     ]},
     { "scCameras" = [
       { "Översikt" = "skriptbibliotek/sccameras/oversikt.md" },
       { "Användning" = "skriptbibliotek/sccameras/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/sccameras/avancerat.md" },
     ]},
     { "scSunriseSet" = [
       { "Översikt" = "skriptbibliotek/scsunriseset/oversikt.md" },
       { "Användning" = "skriptbibliotek/scsunriseset/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/scsunriseset/avancerat.md" },
     ]},
     { "scSNMP" = [
       { "Översikt" = "skriptbibliotek/scsnmp/oversikt.md" },
       { "Användning" = "skriptbibliotek/scsnmp/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/scsnmp/avancerat.md" },
     ]},
     { "scExportVideo" = [
       { "Översikt" = "skriptbibliotek/scexportvideo/oversikt.md" },
       { "Användning" = "skriptbibliotek/scexportvideo/anvandning.md" },
-      { "Avancerat" = "skriptbibliotek/scexportvideo/avancerat.md" },
     ]},
   ]},
 ]

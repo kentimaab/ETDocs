@@ -56,42 +56,34 @@ nav = [
     { "scExtensions" = [
       { "Overview" = "skriptbibliotek/scextensions/oversikt.md" },
       { "Usage" = "skriptbibliotek/scextensions/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/scextensions/avancerat.md" },
     ]},
     { "scFile" = [
       { "Overview" = "skriptbibliotek/scfile/oversikt.md" },
       { "Usage" = "skriptbibliotek/scfile/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/scfile/avancerat.md" },
     ]},
     { "scSaveImage" = [
       { "Overview" = "skriptbibliotek/scsaveimage/oversikt.md" },
       { "Usage" = "skriptbibliotek/scsaveimage/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/scsaveimage/avancerat.md" },
     ]},
     { "scMail" = [
       { "Overview" = "skriptbibliotek/scmail/oversikt.md" },
       { "Usage" = "skriptbibliotek/scmail/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/scmail/avancerat.md" },
     ]},
     { "scCameras" = [
       { "Overview" = "skriptbibliotek/sccameras/oversikt.md" },
       { "Usage" = "skriptbibliotek/sccameras/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/sccameras/avancerat.md" },
     ]},
     { "scSunriseSet" = [
       { "Overview" = "skriptbibliotek/scsunriseset/oversikt.md" },
       { "Usage" = "skriptbibliotek/scsunriseset/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/scsunriseset/avancerat.md" },
     ]},
     { "scSNMP" = [
       { "Overview" = "skriptbibliotek/scsnmp/oversikt.md" },
       { "Usage" = "skriptbibliotek/scsnmp/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/scsnmp/avancerat.md" },
     ]},
     { "scExportVideo" = [
       { "Overview" = "skriptbibliotek/scexportvideo/oversikt.md" },
       { "Usage" = "skriptbibliotek/scexportvideo/anvandning.md" },
-      { "Advanced" = "skriptbibliotek/scexportvideo/avancerat.md" },
     ]},
   ]},
 ]
