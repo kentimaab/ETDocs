@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "route": "/", "redirect": "/docs/", "statusCode": 302 }
+  ],
+  "responseOverrides": {
+    "404": { "rewrite": "/docs/404.html" }
+  },
+  "mimeTypes": {
+    ".inv": "application/octet-stream",
+    ".yml": "text/yaml"
+  }
+}

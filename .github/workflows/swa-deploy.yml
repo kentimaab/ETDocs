@@ -1,0 +1,75 @@
+name: Deploy to Azure Static Web Apps
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run: build and optimize, upload the site as an artifact, do not deploy'
+        type: boolean
+        default: true
+  # Lets the branch be dry-run before the workflow is on main (the Run workflow
+  # button only lists workflows on the default branch). Pushes never deploy.
+  push:
+    branches: [ci/static-web-apps]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: swa-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      # Only a manual run with the dry-run box unticked deploys
+      DEPLOY: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == false }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: |
+          pip install zensical==0.0.70
+          sudo apt-get update -q
+          sudo apt-get install -y -q --no-install-recommends ffmpeg
+
+      - name: Build Swedish docs
+        run: zensical build --clean --strict
+
+      - name: Build English docs
+        run: zensical build --config-file zensical-en.toml --clean --strict
+
+      # Shares the Swedish images with the English pages and turns big GIFs into
+      # MP4. Fails if a link would break or the site is over the 250 MB limit.
+      # The report shows up in the run summary.
+      - name: Optimize for Static Web Apps
+        run: python hooks/optimize_site.py site --base /docs/ --secondary en --max-mb 250
+
+      # The site keeps its /docs/ paths, the same URLs as on the old hosting
+      - name: Stage
+        run: |
+          mkdir -p swa
+          mv site swa/docs
+          cp .github/swa/staticwebapp.config.json .github/swa/index.html swa/
+
+      - name: Upload site for review (dry run)
+        if: env.DEPLOY != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: swa-site
+          path: swa
+          retention-days: 7
+
+      - name: Deploy
+        if: env.DEPLOY == 'true'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: swa
+          skip_app_build: true
+          skip_api_build: true
