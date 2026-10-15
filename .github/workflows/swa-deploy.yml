@@ -6,11 +6,7 @@ on:
       dry_run:
         description: 'Dry run: build and optimize, upload the site as an artifact, do not deploy'
         type: boolean
-        default: true
-  # Lets the branch be dry-run before the workflow is on main (the Run workflow
-  # button only lists workflows on the default branch). Pushes never deploy.
-  push:
-    branches: [ci/static-web-apps]
+        default: false
 
 permissions:
   contents: read
